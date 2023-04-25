@@ -1,6 +1,8 @@
 header{
     display: flex;
     justify-content: space-around;
+    font-family: monospace ;
+    box-sizing: border-box;
     
 }
 ul{
@@ -33,6 +35,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+#fot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    shape-outside: circle();
+    clip-path: circle();
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
 
 
 
@@ -41,6 +53,47 @@ a {
     max-width: 1200px;
     margin: auto;
     align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#f {
+    border: 1px; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #af599e; /*color botón*/
+    color: #fbfbfb; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    text-size-adjust: 20px;
+    width:200px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+    .iconos {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+      }
+      
+      .iconos img {
+        margin-right: 20px;
+        max-width: 100%;
+        height: auto;
+        width: 10%; 
+        
+    
 }
 
 #rea{
