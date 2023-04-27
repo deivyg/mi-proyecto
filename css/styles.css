@@ -1,29 +1,82 @@
-header{
+header {
+    font-family: monospace;
     display: flex;
-    justify-content: space-around;
-    font-family: monospace ;
-    box-sizing: border-box;
-    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 15px;
+    height: 90px;
 }
-ul{
-    display: flex;
-    justify-content: space-around;
-    width: 300px;
-    font-family: "roboto", sans-serif; 
-}
-section{
-    text-align: center;
-    padding: 50px  30px;
-}
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
+    /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .logo img {
+        margin-right: auto;
+        margin-left: 0;
+      }
+      .list {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    
+    }
+
+    #toggler,
+    .principal label{
+        display: none;
+    }
+    @media screen and 
+    (max-width: 100px){
+    
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    
+    .list{
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    }
+    .body {
+
+        display: flex;
+        
+        flex-direction: column;
+        min-height: 100vh;
+        
+    
+    }
+section {
+    text-align: center;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-family:Georgia, 'Times New Roman', Times, serif, cursive
+
+}
+
+
 
 
 ul {
@@ -64,7 +117,7 @@ a {
     margin-bottom: 20px;
 
 }
-#f {
+#cv {
     border: 1px; /*anchura, estilo y color borde*/
     padding: 10px; /*espacio alrededor texto*/
     background-color: #af599e; /*color botón*/
@@ -81,18 +134,32 @@ a {
     margin-bottom: 20px; }
 
     .iconos {
+
         display: flex;
-        justify-content: center;
-        flex-direction: row;
+        justify-content: space-around;
+        max-width: 100%;
+        min-width: 50px;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 80px;
     
       }
-      
-      .iconos img {
-        margin-right: 20px;
-        max-width: 100%;
-        height: auto;
-        width: 10%; 
+
+      #hablemos{
         
+        background-color: rgba(175, 89, 158, 0.3);
+        color: #0f0f0f;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        text-align: center;
+        border: 20px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5%;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Alkatra', cursive;
     
 }
 
