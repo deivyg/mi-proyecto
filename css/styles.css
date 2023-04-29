@@ -65,6 +65,9 @@ header {
         
     
     }
+    ul {
+        list-style: none;
+    }
 section {
     text-align: center;
     font-size: 36px;
@@ -76,13 +79,25 @@ section {
 
 }
 
+#inicio{
 
-
-
-ul {
-    list-style: none;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+#descrip {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -101,12 +116,6 @@ a {
 
 
 
-#main {
-
-    max-width: 1200px;
-    margin: auto;
-    align-items: flex-end;
-}
 
 .container {
     display: flex;
@@ -115,23 +124,10 @@ a {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 
 }
-#cv {
-    border: 1px; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #af599e; /*color botón*/
-    color: #fbfbfb; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 50px; /*bordes redondos*/
-    text-size-adjust: 20px;
-    width:200px;
-    height: 40px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px; }
+
 
     .iconos {
 
@@ -146,7 +142,6 @@ a {
       }
 
       #hablemos{
-        
         background-color: rgba(175, 89, 158, 0.3);
         color: #0f0f0f;
         margin-top: 20px;
@@ -160,13 +155,24 @@ a {
         margin-left: 20px;
         margin-right: 20px;
         font-family: 'Alkatra', cursive;
+    }
     
-}
+    
+
 
 #rea{
     background-color: blueviolet;
     text-align: center;
     color:aliceblue;
+    font-family: "Sofia", sans-serif;
+    margin-top: 20px;
+    height: 90px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
 }
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
