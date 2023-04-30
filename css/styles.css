@@ -68,26 +68,15 @@ header {
     ul {
         list-style: none;
     }
-section {
-    text-align: center;
-    font-size: 36px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-    font-family:Georgia, 'Times New Roman', Times, serif, cursive
+    section {
 
-}
-
-#inicio{
-
-    font-size: 36px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-    font-family:Arial, Helvetica, sans-serif;
-}
+        font-size: 36px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        font-family: 'Alkatra', cursive;
+    }
 
 #descrip {
 
